@@ -1,0 +1,461 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+
+ }
+
+
+ :root {
+
+  /**
+   * colors
+   */
+
+ 
+  --my-color: #a41a1f;
+  --other-color: white;
+  --alt-color: #f8801a;
+ }
+
+
+body{
+background-color: white;
+}
+
+
+.home-img{
+  width:100%;
+     height:37rem;
+   z-index:-10;
+  filter:brightness(35%);
+  top:0px;
+  position:absolute;
+  
+}
+
+.bg-img{
+  width:100%;
+     height:20rem;
+   z-index:-10;
+  top:0px;
+  position:absolute;
+  filter:brightness(45%);
+opacity: ();
+}
+
+
+header{
+display:flex;
+height:65px;
+ position:relative;
+ top:70px;
+  z-index:1;
+  justify-content:space-around;
+ align-items:center;
+}
+
+.header-social{
+  right:30px;
+  position:absolute;
+}
+
+.header-social i{
+ font-size:40px;
+ color:white;
+}
+
+
+
+.logo-card{
+  position:absolute;
+}
+
+.logo{
+ width:90px
+}
+
+.menu-btns{
+ position:absolute;
+left:30px;
+  z-index:1;
+}
+
+
+#menu-bar{
+display:flex;
+flex-direction:column; 
+position:absolute;
+background-color:rgb(0 0 0);
+height:400px;
+transition: all 0.4s ease;
+top:0px;
+width:100%;
+align-items:center;
+gap:30px;
+transition: 0.5s ease-in-out;
+ right:0px;
+ z-index:-4;
+  justify-content:center;
+ 
+}
+
+.nav-link a{
+ text-decoration:none;
+
+}
+
+.nav-link{
+ display:flex;
+flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ position:relative;
+ top:20px;
+ margin:25px;
+}
+
+
+.slide{
+left:-100%;
+}
+
+
+.hide{
+visibility:hidden;
+ z-index:1;
+}
+
+.open{
+position:absolute;
+}
+
+
+.chat-wa{
+  position:fixed;
+   top:93%;
+   display:flex;
+   justify-content:right;
+   align-items:right;
+  right:20px;
+  }
+  
+
+  
+  .whatsapp-img{
+  border-radius:100px;
+  height:40px;
+   width:40px;
+  margin-top:-9px;
+  animation: scaleUp 3s ease-in-out infinite;
+  }
+
+
+/*HOMEPAGE */
+
+.home-text-card{
+ margin-top:150px;
+ text-align:center;
+ padding-bottom:50px;
+ color:white;
+}
+
+.home-text-card h6{
+ padding-bottom:20px;
+ font-size:13px;
+ font-weight:bold;
+}
+
+
+.home-text-card h2,h1{
+  color:#db5207;
+}
+
+.home-text-card span{
+  color:white;
+}
+
+.home-text-card p{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.home-btn-card{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ gap:20px;
+}
+
+.home-btn{
+ width:120px;
+ border:3px solid #db5207;
+ font-size:13px;
+ line-height:1.7;
+ background-color:#db5207;
+}
+
+.home-btn-two{
+ width:300px;
+ border:3px solid #db5207;
+  line-height:1.7;
+}
+
+
+/*SECRET*/
+
+.secret{
+ padding-top:120px;
+  padding-bottom:70px;
+ display:flex;
+ flex-direction:column;
+ gap:30px;
+ justify-content:center;
+ align-items:center;
+}
+
+.secret-card{
+ display:flex;
+ flex-direction:column;
+  justify-content:center;
+ align-items:center;
+ text-align:center;
+  padding-bottom:40px;
+}
+
+.secret-card h1{
+ font-size:19px;
+ padding-top:15px;
+  padding-bottom:15px;
+}
+
+.secret-card p{
+  font-size:14px;
+ padding:2px;
+}
+
+.secret-card img{
+ width:120px;
+ height:120px;
+ border-radius:50%;
+}
+
+/* SERVICES */
+
+
+#home-services-details-card{
+    padding:30px;
+    background-image: url('/assets/images/catering\ service.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+    background-repeat: no-repeat;
+ background-color:rgb(6 6 6 / 75%);
+color:white;
+}
+
+.home-service-card{
+display:flex;
+flex-direction:column;
+gap:10px;
+padding-top:20px;
+padding-bottom:50px;
+}
+
+
+.home-service-card span{
+ display:flex;
+ gap:10px;
+}
+
+ .home-services-details-intro h1{
+  padding-bottom:15px;
+   padding-top:45px;
+  font-size:12px;
+  font-weight: bold;
+ }
+
+ .home-services-details-intro h4{
+  padding-bottom:15px;
+  font-size:20px;
+ }
+
+    .home-services-details-intro h5{
+  padding-bottom:15px;
+     font-weight:lighter;
+ }
+
+
+
+/* ABOUT */
+
+.home-about{
+    padding-top:60px;
+   padding-bottom:60px;
+ display:flex;
+ flex-direction:column;
+}
+
+
+
+.home-about-img-card img{
+ width:85%;
+ height:300px;
+}
+
+.home-about-img-card{
+display:flex;
+ flex-direction:column;
+ gap:35px;
+  justify-content:center;
+ align-items:center;
+   padding-bottom:60px;
+}
+
+
+.home-about-btn{
+ border:2px solid black;
+ width:250px;
+ text-align:center;
+ line-height:2.4;
+ font-size:13px;
+ font-weight:bold;
+ 
+}
+
+.home-about-btn-card{
+ display:flex;
+  justify-content:center;
+ align-items:center;
+}
+
+
+
+
+
+
+
+
+/* TESTIMONIAL */
+
+.home-test{
+ background-image: url('/assets/images/catering\ service.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+    background-repeat: no-repeat;
+ background-color:rgb(6 6 6 / 47%);
+ color:white;
+ text-align:center;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+}
+
+
+
+.home-test h6{
+   padding-top:55px;
+  padding-bottom:15px;
+}
+
+ .home-test h3{
+   padding-bottom:25px;
+}
+
+.test-card{
+ width:290px;
+ background-color:black;
+}
+
+.test-card p{
+   padding-top:25px;
+}
+
+
+.test-card h3{
+ padding-top:20px;
+ font-size:18px;
+}
+
+.mother{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ gap:70px;
+ position:relative;
+ top:90px
+}
+
+.home-test-btn{
+position:relative;
+ top:140px;
+ color:black;
+ border:3px solid black;
+ width:250px;
+ font-size:13px;
+ line-height:2.4;
+ font-weight: bold;
+}
+
+.home-test hr{
+ width:100px;
+ height:1.8px;
+ position:relative;
+ top:170px;
+ background-color:black
+}
+
+
+/* QUESTION */
+
+.questions{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ padding-top:240px;
+  padding-bottom:50px;
+}
+
+.questions h3{
+  padding-bottom:20px;
+  font-size:25px;
+}
+
+.questions p{
+  padding-bottom:30px;
+}
+
+.questions h4{
+  font-size:27px;
+}
+
+
+ footer{
+  background-color:black;
+  text-align:center;
+ }
+
+ footer p{
+  padding-top:30px;
+    padding-bottom:15px;
+  color:white;
+   font-size:15px;
+ }
+
+footer h1{
+  padding-bottom:30px;
+  font-size:22px;
+ }
+
+footer a{
+ text-decoration:none;
+ color:white;
+}
