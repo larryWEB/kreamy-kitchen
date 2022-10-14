@@ -1,0 +1,670 @@
+
+
+@media (min-width: 768px) {
+
+  #home{
+   padding-top:140px;
+  }
+     
+     .home-left h1{
+       color:#db5207;
+         font-size:72px;
+     }
+     
+   #menu-about{
+    display:flex;
+    flex-direction:row;
+   }
+
+
+/*-----------------------------------*\ 
+  #BE A CHEF
+\*-------------------------------------*/
+
+
+.be-chef-img-card{
+display:flex;
+ justify-content:center;
+ align-items:center;
+ width:90%;
+ height:320px;
+ overflow:hidden;
+}
+
+
+.home-img{
+ width:100%;
+ animation:zoomInOut 15s linear infinite;
+}
+
+
+@keyframes zoomInOut{
+0%,100%{
+ transform:scale(1);
+}
+
+50%{
+ transform:scale(1.3);
+}
+
+
+}
+
+
+#be-a-chef{
+ background-color:#1a0904;
+ margin-top:70px;
+ color:white;
+ display:grid;
+  grid-template-columns: repeat(2,1fr) ;
+ justify-content:center;
+ align-items:center;
+ padding-bottom:70px;
+  padding-top:70px;
+}
+
+
+.be-chef-text-card{
+  padding-bottom:40px;
+  display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+}
+
+
+
+
+.be-chef-text-card h3{
+ font-size:24px;
+}
+
+
+
+
+
+
+
+ 
+
+ 
+     /* SECRET */
+ 
+ .secret{
+  padding-top:120px;
+   padding-bottom:70px;
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+  justify-content:center;
+  align-items:center;
+ }
+ 
+ .secret-card img{
+  width:160px;
+  height:160px;
+ }
+
+
+   /* MENU */
+
+.wrap img{
+ width:290px;
+ height:290px;
+}
+
+.wrap p{
+ width:290px;
+ text-align:center;
+ line-height:3.6;
+}
+
+#wrap-mother{
+ display:grid;
+grid-template-columns: repeat(2,330px);
+ justify-content:center;
+ align-items:center;
+}
+
+.menu-head-text h2{
+ font-size:45px;
+}
+
+ 
+ 
+       /* SERVICES */
+     
+ #home-services-details-card{
+      display:flex;
+   padding-bottom:50px;
+  gap:100px;
+ }
+ 
+ .home-services-details-intro{
+  width:250px
+ }
+  
+  .home-services-details-intro h4{
+      font-size:35px;
+    padding-bottom:20px;
+     }
+ 
+  .home-services-details-intro h5{
+      font-size:17px;
+    padding-bottom:20px;
+     }
+ 
+ .home-service-card{
+  padding-top:70px;
+ }
+ 
+  .home-service-card p{
+ font-size:15px;
+ }
+ 
+  
+ /* ABOUT */
+  
+ .home-about{
+     padding-top:80px;
+    padding-bottom:60px;
+  display:flex;
+  flex-direction:column;
+ }
+ 
+ 
+ 
+ .home-about-img-card{
+ display:grid;
+  grid-template-columns: repeat(3,200px);
+  gap:35px;
+   justify-content:center;
+  align-items:center;
+    padding-bottom:60px;
+ }
+ 
+ 
+ .home-about-img-card img{
+  width:200px;
+  height:200px;
+ }
+ 
+ 
+
+ 
+   /* TESTIMONIAL */
+ 
+ .home-test{
+  background-image: url('/assets/images/catering\ service.jpg');
+   background-blend-mode: overlay;
+   background-size: cover;
+     background-repeat: no-repeat;
+  background-color:rgb(6 6 6 / 85%);
+  color:white;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+ }
+ 
+  
+ .home-test h6{
+   font-size:14px;
+  padding-top:90px;
+ }
+ 
+ .home-test h3{
+   font-size:38px;
+ }
+ 
+ .test-card{
+  width:680px;
+  border-radius:10px;
+ }
+ 
+  .test-card p{
+    padding-top:45px;
+ }
+ 
+ .test-card h3{
+  padding-bottom:45px;
+  font-size:18px;
+ }
+ 
+  
+     }
+ 
+
+
+
+@media (max-width: 1023px) {
+.home-right-img{
+ display:none;
+}
+ 
+}
+
+
+ 
+ @media (min-width: 1024px) {
+/*MENU AND NAV BAR*/
+#menu-bar{
+  display:flex;
+   flex-direction:row; 
+   z-index:1;
+   position:fixed;
+  height:0px;
+  background-color:transparent;
+    visibility: visible;
+    justify-content:end;
+    top:20px;
+     visibility: visible;
+    right:50px;
+  }
+  
+  
+  
+  .menu-btns{
+   visibility:hidden;
+  }
+  
+  
+  
+  
+  .nav-link-card{
+   font-weight:600;
+ 
+   top:20px;
+   font-size:14px;
+    display:inline-flex;
+    visibility: visible;
+         margin:15px;
+                 border:none;
+        }
+
+   .slide{
+           visibility: visible;
+          left:-40px;
+         }
+  
+  .nav-social{
+    display:none;
+  }
+  
+  
+  .nav-social img{
+   width:23px;
+   display:none;
+  }
+  
+  
+  .nav-link a{
+   text-decoration:none;
+  
+  }
+  
+  .nav-link a:hover{
+   text-decoration:none;
+  
+  } 
+  
+/*END OF MENU AND NAV BAR */
+
+
+
+
+
+ #home{
+   display:flex;
+   flex-direction:row;
+  margin-top:-200px;
+  }
+
+ .home-left{ 
+  text-align: left; 
+  margin-top:200px;
+  width:450px;
+  margin-left:50;
+  position:relative;
+ }
+
+ 
+ #home h1{ 
+  font-size:55px
+ }
+  
+  
+ #home h6{ 
+  text-align: left; 
+ }
+  
+  #menu-about { justify-content: start; }
+
+  .home-right-img{
+   display:flex;
+   position:relative;
+  }
+
+.home-right-img img{
+ width:220px;
+  height:220px;
+  border-radius:50%;
+  position:relative;
+  }
+
+   .img-1 {
+    top: -0px; 
+      left:40px;
+      animation: scaleUp 3s ease-in-out infinite;
+   }
+  
+  .img-2 {
+   top: 220px;
+   right:-20px;
+   animation: scaleUp 2s ease-in-out infinite;
+  }
+  
+  .img-3 { 
+   top: -60px; 
+   right:80px;
+   animation: scaleUp 4s ease-in-out infinite;
+  }
+
+
+
+
+
+@keyframes scaleUp {
+
+  0%,
+  100% { transform: translateY(0) scale(1); }
+
+  50% { transform: translateY(-5px) scale(1.05);}
+
+}
+  
+
+
+/*-----------------------------------*\ 
+  #BE A CHEF
+\*-------------------------------------*/
+
+
+.be-chef-img-card{
+display:flex;
+ justify-content:center;
+ align-items:center;
+ width:90%;
+ height:420px;
+ overflow:hidden;
+}
+
+
+.home-img{
+ width:100%;
+ animation:zoomInOut 15s linear infinite;
+}
+
+
+@keyframes zoomInOut{
+0%,100%{
+ transform:scale(1);
+}
+
+50%{
+ transform:scale(1.3);
+}
+
+
+}
+
+
+#be-a-chef{
+ background-color:#1a0904;
+ margin-top:70px;
+ color:white;
+ display:grid;
+  grid-template-columns: repeat(2,1fr) ;
+ justify-content:center;
+ align-items:center;
+ padding-bottom:70px;
+  padding-top:70px;
+}
+
+
+.be-chef-text-card{
+  padding-bottom:40px;
+  display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+}
+
+
+
+
+.be-chef-text-card h3{
+ font-size:34px;
+}
+
+
+
+
+
+ /* SECRET */
+
+.secret{
+  padding-top:180px;
+   padding-bottom:70px;
+
+ }
+ 
+
+   /* MENU */
+
+.wrap img{
+ width:250px;
+ height:250px;
+}
+
+.wrap p{
+ width:250px;
+ text-align:center;
+ line-height:3.6;
+}
+
+#wrap-mother{
+ display:grid;
+grid-template-columns: repeat(3,280px);
+ justify-content:center;
+ align-items:center;
+}
+
+.menu-head-text{
+ padding:70px;
+}
+  
+
+
+  
+ /* ABOUT */
+  
+ .home-about-img-card{
+ display:grid;
+  grid-template-columns: repeat(3,300px);
+  gap:35px;
+   justify-content:center;
+  align-items:center;
+    padding-bottom:60px;
+ }
+ 
+ 
+ .home-about-img-card img{
+  width:300px;
+  height:300px;
+ }
+ 
+  
+ }
+ 
+ 
+ @media (min-width: 1321px) {
+ 
+  .home-right-img img{
+    width:250px;
+     height:250px;
+     border-radius:50%;
+     position:relative;
+     }
+ 
+     .home-right-img{
+      display:flex;
+      position:relative;
+      top:70px;
+     }
+ 
+
+ /* MENU */
+
+.wrap img{
+ width:300px;
+ height:300px;
+}
+
+.wrap p{
+ width:300px;
+ text-align:center;
+ line-height:3.6;
+}
+
+#wrap-mother{
+ display:grid;
+grid-template-columns: repeat(3,350px);
+ justify-content:center;
+ align-items:center;
+}
+
+.menu-head-text{
+ padding:120px;
+}
+  
+
+
+
+
+  
+ /* TRAINING */
+
+ #training{
+  margin-top:200px;
+}
+
+
+
+
+
+ 
+       /* SERVICES */
+     
+       #home-services-details-card{
+         display:flex;
+      padding-bottom:50px;
+     gap:220px;
+    }
+ 
+    .home-services-details-intro{
+ padding:50px;
+ width:300px;
+    }
+ 
+    .home-service-card{
+     padding-top:130px;
+    }
+ 
+ 
+    .home-services-details-intro h4{
+     font-size:45px;
+   padding-bottom:20px;
+    }
+ 
+ 
+ 
+     /* ABOUT */
+      
+     .home-about-img-card{
+     display:grid;
+      grid-template-columns: repeat(3,370px);
+      gap:35px;
+       justify-content:center;
+      align-items:center;
+        padding-bottom:60px;
+     }
+     
+     
+     .home-about-img-card img{
+      width:370px;
+      height:300px;
+     }
+     
+ 
+ 
+     /* SECRET */
+ 
+ .secret{
+ gap:70px;
+ padding-top: 220px;
+ }
+ 
+ .secret-card img{
+     width:190px;
+     height:190px;
+     border-radius:50%;
+    }
+ 
+     .secret p{
+ width:330px;
+     }
+ 
+ 
+ /* TESTIMONIAL */
+ 
+ .mother{
+     display:flex;
+     flex-direction: row;
+ 
+ }
+ 
+ .test-card{
+  width:290px;
+ 
+ }
+ 
+ /* QUESTIONS */
+ 
+ .questions{
+     padding-top:270px;
+      padding-bottom:80px;
+    }
+ 
+ 
+ .questions h3{
+     padding-bottom:40px;
+     font-size:45px;
+     width:600px;
+   }
+   
+   .questions p{
+     padding-bottom:50px;
+   }
+   
+   .questions h4{
+     font-size:27px;
+   }
+   
+ 
+ 
+      
+     }
